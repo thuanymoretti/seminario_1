@@ -55,3 +55,12 @@ main{
 }
 
 
+h3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align:left;
+}
+
+p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align:left;
+}
