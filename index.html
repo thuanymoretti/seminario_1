@@ -62,8 +62,78 @@
                     valor é muito usado quando se quer alinhar elementos lado a lado, mantendo controle de tamanho.</p>
 
                 <h3>Flex</h3>
-                <p>O valor flex transforma o elemento em um container flexível, utilizando o modelo de layout chamado Flexbox. Nesse modelo, os elementos filhos podem ser organizados em linha ou coluna e podem ser facilmente alinhados, distribuídos e redimensionados. É muito usado para criar layouts modernos e responsivos.
-</p>
+                <p>O valor flex transforma o elemento em um container flexível, utilizando o modelo de layout chamado
+                    Flexbox. Nesse modelo, os elementos filhos podem ser organizados em linha ou coluna e podem ser
+                    facilmente alinhados, distribuídos e redimensionados. É muito usado para criar layouts modernos e
+                    responsivos.</p>
+
+                <h3>Inline-flex</h3>
+                <p>Funciona como o flex, mas o container se comporta como um elemento inline, ele pode ficar na mesma
+                    linha que outros elementos. Internamente, os elementos filhos ainda são organizados usando o modelo
+                    Flexbox.</p>
+
+                <h3>Grid</h3>
+                <p>O valor grid ativa o CSS Grid Layout, que é um sistema de layout baseado em linhas e colunas. Ele
+                    permite criar estruturas mais complexas e bidimensionais para organizar elementos na página, sendo
+                    muito utilizado para layouts completos de sites.</p>
+
+                <h3>Inline-grid</h3>
+                <p>Funciona parecido com o grid, mas o elemento se comporta como inline, podendo ficar na mesma linha de
+                    outros elementos. Mesmo assim, seus filhos são organizados usando o sistema de grade do CSS Grid.
+                </p>
+
+                <h3>Flow-root</h3>
+                <p>O valor flow-root cria um novo contexto de formatação de bloco, o elemento passa a controlar melhor o
+                    layout interno dos seus filhos. Ele é útil para evitar problemas com elementos flutuantes (floats) e
+                    manter a organização do layout dentro do container.
+                </p>
+
+                <h3>Table</h3>
+                <p>O valor table faz com que o elemento se comporte como uma tabela HTML, semelhante ao elemento
+                <table>. Isso permite usar propriedades relacionadas a linhas, colunas e células para organizar o
+                    conteúdo.</p>
+
+                    <h3>Block flow</h3>
+                    <p>Esse valor usa a sintaxe moderna de dois valores do display. block define que o elemento se
+                        comporta como um bloco no layout externo, enquanto flow indica que os elementos internos seguem
+                        o fluxo normal do documento (layout padrão). Na prática, é equivalente ao comportamento padrão
+                        de muitos elementos de bloco.</p>
+
+                    <h3>Block flex</h3>
+                    <p>Nesse caso, o elemento é exibido como bloco externamente, mas seus elementos internos são
+                        organizados usando o Flexbox. Esse valor é equivalente ao uso tradicional de flex.
+                    </p>
+
+                    <h3>Block grid</h3>
+                    <p>Aqui o elemento se comporta como bloco no layout externo, enquanto os elementos internos são
+                        organizados usando CSS Grid. Na prática, tem o mesmo comportamento de grid.</p>
+
+                    <h3>Block flow-root</h3>
+                    <p>Esse valor cria um elemento que se comporta como bloco e também estabelece um novo contexto de
+                        formatação de bloco, semelhante ao flow-root. Ele é útil para controlar o layout interno e
+                        evitar interferência de elementos externos.</p>
+
+                    <h3>Inline flow</h3>
+                    <p>O valor inline flow define que o elemento se comporta como inline externamente, enquanto o
+                        conteúdo interno segue o fluxo normal do documento. Isso significa que o elemento fica na mesma
+                        linha que outros, mas organiza seus filhos no layout padrão.</p>
+
+                    <h3>Inline flex</h3>
+                    <p>Nesse caso o elemento é exibido como inline, porém seus filhos são organizados usando o Flexbox.
+                        Ele é equivalente ao valor tradicional inline-flex.</p>
+
+                    <h3>Inline grid</h3>
+                    <p>O elemento se comporta como inline, mas organiza seus elementos internos usando o sistema Grid. É
+                        equivalente ao valor inline-grid.</p>
+
+                    <h3>Inline flow-root</h3>
+                    <p>Esse valor faz com que o elemento seja inline externamente, mas crie um novo contexto de
+                        formatação interno, semelhante ao inline-block. Inclusive, inline-block é considerado
+                        equivalente a inline flow-root.</p>
+
+
+
+
 
 
 
