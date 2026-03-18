@@ -44,3 +44,14 @@ main{
     display: block;
 }
 
+.des_position{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(175, 115, 59);
+    justify-content: space-around;
+    color:antiquewhite;
+    border-radius: 45px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
